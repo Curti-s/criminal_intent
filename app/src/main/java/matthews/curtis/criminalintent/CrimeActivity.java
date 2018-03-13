@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class CrimeActivity extends AppCompatActivity {
+    // AppCompatActivity is a subclass of FragmentActivity which is how I was able to use support
+    // fragments in this chapter.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
