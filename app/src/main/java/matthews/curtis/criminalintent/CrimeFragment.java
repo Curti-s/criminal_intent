@@ -56,7 +56,7 @@ public class CrimeFragment extends Fragment {
         // Button
         mDateButton = (Button) v.findViewById(R.id.crime_date);
         mDateButton.setText(mCrime.getDate().toString());
-        mDateButton.setEnabled(false);
+        mDateButton.setEnabled(false); // do not respond to user-press activity
 
         // CheckBox
         mSolvedCheckBox = (CheckBox) v.findViewById(R.id.crime_solved);
