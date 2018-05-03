@@ -1,7 +1,6 @@
 package matthews.curtis.criminalintent;
 
 import android.content.Context;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -13,6 +12,8 @@ import java.util.UUID;
 public class CrimeLab {
     // implemented as a singleton which is a class that only allows one instance of itself to be created.
     // A singleton exists as long as the application stays in memory.
+
+    // static instance of CrimeLab
     private static CrimeLab sCrimeLab;
 
     public static CrimeLab get(Context context) {
